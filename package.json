@@ -1,0 +1,14 @@
+{
+  "name": "shvya-ai-crm",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@10.14.0",
+  "scripts": {
+    "dev": "pnpm --parallel --filter @shvya/web --filter @shvya/api dev",
+    "build": "pnpm --recursive build",
+    "typecheck": "pnpm --recursive typecheck"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
